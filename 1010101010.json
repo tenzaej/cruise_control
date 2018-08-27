@@ -2,7 +2,7 @@
   "title": "Cruise Control",
   "rules": [
     {
-      "description": "'Look maw, no hands!!', aka, GUI-navigation mode",
+      "description": "Capslock is cruise control for cool",
       "manipulators": [
         {
           "type": "basic",
@@ -72,7 +72,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "s",
             "modifiers": {
               "optional": [
                 "any"
@@ -97,7 +97,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "d",
             "modifiers": {
               "optional": [
                 "any"
@@ -122,7 +122,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "e",
             "modifiers": {
               "optional": [
                 "any"
@@ -147,9 +147,9 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "f",
             "modifiers": {
-              "options": [
+              "optional": [
                 "any"
               ]
             }
@@ -174,7 +174,7 @@
           "from": {
             "key_code": "u",
             "modifiers": {
-              "options": [
+              "optional": [
                 "any"
               ]
             }
@@ -197,7 +197,7 @@
           "from": {
             "key_code": "i",
             "modifiers": {
-              "options": [
+              "optional": [
                 "any"
               ]
             }
