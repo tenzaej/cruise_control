@@ -69,6 +69,37 @@
             }
           ]
         },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "cruise_control",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "set_variable": {
+                "name": "cruise_control",
+                "value": 0
+              }
+            }
+          ]
+        },
 
         {
           "type": "basic",
